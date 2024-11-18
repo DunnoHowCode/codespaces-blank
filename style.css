@@ -1,0 +1,21 @@
+body {
+    background-color: #2a0042;
+}
+
+.path {
+    width: 400px;
+    height: 350px;
+}
+
+.inside {
+    width: 500px;
+    height: 350px;
+}
+
+p {
+    color: white;
+}
+
+.para {
+    width: 450px;
+}
