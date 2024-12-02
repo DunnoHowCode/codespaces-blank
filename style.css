@@ -2,9 +2,9 @@ body {
     background-color: #2a0042;
 }
 
-.path {
+.dolo {
     width: 400px;
-    height: 350px;
+    height: 400px;
 }
 
 .prison {
@@ -18,4 +18,19 @@ p {
 
 .para {
     width: 450px;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+}
+
+.groupie {
+    width: 400px;
+    height: 400px;
+}
+
+.outtie {
+    width: 500px;
+    height: 400px;
 }
