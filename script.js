@@ -8,7 +8,8 @@ prison = document.querySelector('.prison');
 block = document.querySelector('.block');
 groupie = document.querySelector('.groupie');
 escape = document.querySelector('.outtie');
-injured = document.querySelector('.injured')
+injured = document.querySelector('.injured');
+bottles = document.querySelector('.bottles');
 
 block.style.display="none";
 dolo.style.display="none";
@@ -17,6 +18,7 @@ prison.style.display="none";
 groupie.style.display="none";
 escape.style.display="none";
 injured.style.display="none";
+bottles.style.display="none";
 
 left.addEventListener ('click', function() {
     left.style.display="none";
@@ -48,7 +50,8 @@ right.addEventListener ('click', function() {
     left.style.display="none";
     right.style.display="none";
     dysto.style.display="none";
-    injured.style.display="block";
+    injured.style.display="inline";
+    block.style.display="inline";
     text.innerHTML="The only feasible option in your mind is to try to make it through this ragged world one day at a time. We can leave the courageous ideals to courageous people. Still, that stale, unchanging suffering wouldn’t last long as you’d stumble upon one of the well-known leaders of this skewed world in terrible condition. In his hand held a weird looking block of grass. <br><br> Press W to pick him up, or (do smth) to take the block.";
 });
 
@@ -56,9 +59,10 @@ document.addEventListener ('keydown', function(event) {
     //87 = W, press W
     if(event.keyCode == 87) {
         injured.style.display="none";
+        block.style.display="none";
+        bottles.style.display="block";
+        text.innerHTML="After taking the man in and nurturing him to health, he persauded you into companionship. Now you have become one of them, one of the high hands that controlled the suffering below. What can I say? Game is game.";
     }
-
-
 });
 
 block.addEventListener ('click', function() {
