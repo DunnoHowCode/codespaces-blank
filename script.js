@@ -61,7 +61,7 @@ document.addEventListener ('keydown', function(event) {
         injured.style.display="none";
         block.style.display="none";
         bottles.style.display="block";
-        text.innerHTML="After taking the man in and nurturing him to health, he persauded you into companionship. Now you have become one of them, one of the high hands that controlled the suffering below. What can I say? Game is game.";
+        text.innerHTML="After taking the man in and nurturing him to health, he persauded you into companionship. Now you have become one of them, one of the high hands that controlled the suffering below. <br> Game is game, I guess?";
     }
 });
 
