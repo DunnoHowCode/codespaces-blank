@@ -2,14 +2,24 @@ body {
     background-color: #2a0042;
 }
 
-.dolo, .groupie, .bottles {
+.dolo, .groupie {
+    width: 250px;
+    height: 250px;
+}
+
+.bottles {
     width: 400px;
     height: 400px;
 }
-
 .prison {
     width: 500px;
     height: 350px;
+}
+
+
+.main{
+    width: 550px;
+margin:0 auto;
 }
 
 h1 {
@@ -36,3 +46,6 @@ p {
     height: 400px;
 }
 
+.injured {
+    width: 500px;
+}
